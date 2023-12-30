@@ -37,6 +37,8 @@ destructor TSingletonEmpresa.Destroy;
 begin
   if Assigned(FEmpresa) then
   FEmpresa.Free;
+
+
   inherited;
 end;
 
